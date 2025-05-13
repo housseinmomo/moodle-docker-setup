@@ -1,0 +1,21 @@
+username,password,firstname,lastname,email,city,country,auth,department,institution,lang,timezone,description
+john.doe,changeme1!,John,Doe,john.doe@example.com,Paris,FR,manual,IT,Company Inc,fr,Europe/Paris,Developer
+jane.smith,changeme2!,Jane,Smith,jane.smith@example.com,Lyon,FR,manual,Marketing,Company Inc,fr,Europe/Paris,Marketing Manager
+robert.martin,changeme3!,Robert,Martin,robert.martin@example.com,Marseille,FR,manual,Finance,Company Inc,fr,Europe/Paris,Financial Analyst
+marie.dupont,changeme4!,Marie,Dupont,marie.dupont@example.com,Toulouse,FR,manual,HR,Company Inc,fr,Europe/Paris,HR Specialist
+ahmed.ben,changeme5!,Ahmed,Ben,ahmed.ben@example.com,Lille,FR,manual,Sales,Company Inc,fr,Europe/Paris,Sales Representative
+sophie.leclerc,changeme6!,Sophie,Leclerc,sophie.leclerc@example.com,Bordeaux,FR,manual,Research,Company Inc,fr,Europe/Paris,Research Lead
+thomas.petit,changeme7!,Thomas,Petit,thomas.petit@example.com,Nantes,FR,manual,Operations,Company Inc,fr,Europe/Paris,Operations Manager
+laura.blanc,changeme8!,Laura,Blanc,laura.blanc@example.com,Strasbourg,FR,manual,Legal,Company Inc,fr,Europe/Paris,Legal Advisor
+pierre.henry,changeme9!,Pierre,Henry,pierre.henry@example.com,Montpellier,FR,manual,Customer Service,Company Inc,fr,Europe/Paris,Support Specialist
+emilie.rousseau,changeme10!,Emilie,Rousseau,emilie.rousseau@example.com,Nice,FR,manual,Executive,Company Inc,fr,Europe/Paris,Project Coordinator
+student1,student123!,Etudiant,Un,student1@example.com,Paris,FR,manual,Computer Science,University Paris,fr,Europe/Paris,First year student
+student2,student123!,Etudiant,Deux,student2@example.com,Paris,FR,manual,Computer Science,University Paris,fr,Europe/Paris,First year student
+student3,student123!,Etudiant,Trois,student3@example.com,Paris,FR,manual,Computer Science,University Paris,fr,Europe/Paris,Second year student
+student4,student123!,Etudiant,Quatre,student4@example.com,Lyon,FR,manual,Computer Science,University Lyon,fr,Europe/Paris,Second year student
+student5,student123!,Etudiant,Cinq,student5@example.com,Lyon,FR,manual,Computer Science,University Lyon,fr,Europe/Paris,First year student
+teacher1,teacher123!,Professeur,Un,teacher1@example.com,Paris,FR,manual,Computer Science,University Paris,fr,Europe/Paris,Programming teacher
+teacher2,teacher123!,Professeur,Deux,teacher2@example.com,Paris,FR,manual,Mathematics,University Paris,fr,Europe/Paris,Mathematics teacher
+teacher3,teacher123!,Professeur,Trois,teacher3@example.com,Lyon,FR,manual,Computer Science,University Lyon,fr,Europe/Paris,Networking teacher
+admin1,admin123!,Admin,Un,admin1@example.com,Paris,FR,manual,IT Administration,University Paris,fr,Europe/Paris,Moodle administrator
+manager1,manager123!,Manager,Un,manager1@example.com,Paris,FR,manual,Education Management,University Paris,fr,Europe/Paris,Course manager

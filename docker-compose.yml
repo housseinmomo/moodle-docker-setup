@@ -1,0 +1,51 @@
+version: '3'
+
+services:
+  db:
+    image: mariadb:10.11
+    container_name: moodle_db
+    environment:
+      MYSQL_ROOT_PASSWORD: moodle_root_password
+      MYSQL_DATABASE: moodle
+      MYSQL_USER: moodle
+      MYSQL_PASSWORD: moodle_password
+    volumes:
+      - moodledb_data:/var/lib/mysql
+    networks:
+      - moodle_network
+    restart: always
+
+  moodle:
+    image: bitnami/moodle:4.5
+    container_name: moodle_app
+    environment:
+      - MOODLE_DATABASE_TYPE=mariadb
+      - MOODLE_DATABASE_HOST=db
+      - MOODLE_DATABASE_PORT_NUMBER=3306
+      - MOODLE_DATABASE_NAME=moodle
+      - MOODLE_DATABASE_USER=moodle
+      - MOODLE_DATABASE_PASSWORD=moodle_password
+      - MOODLE_USERNAME=admin
+      - MOODLE_PASSWORD=admin_password
+      - MOODLE_EMAIL=admin@example.com
+      - MOODLE_SITE_NAME=Moodle 4.5 Site
+    ports:
+      - "8080:8080"
+      - "443:8443"
+    volumes:
+      - moodle_data:/bitnami/moodle
+      - moodledata_data:/bitnami/moodledata
+    depends_on:
+      - db
+    networks:
+      - moodle_network
+    restart: always
+
+networks:
+  moodle_network:
+    driver: bridge
+
+volumes:
+  moodledb_data:
+  moodle_data:
+  moodledata_data:
